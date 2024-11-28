@@ -51,8 +51,7 @@
 ### Step 2: Cache Database Queries
 1. **Check if data exists in the cache**:
     ```php
-    php
-    Copy code
+    <?php
     $key = 'user_list';
     $cachedData = $redis->get($key);
 
